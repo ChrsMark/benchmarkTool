@@ -1,0 +1,28 @@
+# cluster and index info here
+general:
+ es_host: "192.168.5.235"
+ index: "test_data"
+
+
+# conf for read module
+read_module:
+ # specify the rate to achived. How many threads to work and how many hits for each of them
+ number_of_threads: 4
+ hits_per_thread: 100
+ # set a division number to report process while the benchmark is being executed
+ division_report: 10
+ # set it to specify how much msecs to wait for an es response
+ timeout: 1000
+
+# conf for write module
+write_module:
+ # specify the rate to achived. How many threads to work and how many hits for each of them
+ number_of_threads: 4
+ hits_per_thread: 1000
+ # set a division number to report process while the benchmark is being executed
+ division_report: 10
+ # set a batch size. Useful for write module
+ batch_size: 500
+ # set it to specify how much msecs to wait for an es response
+ timeout: 1000
+
