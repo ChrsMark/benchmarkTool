@@ -89,7 +89,7 @@ for thread_id in range(working_threads):
     # Create threads as follows
     print 'Creating thread {}...'.format(str(thread_id))
     # Create new thread
-    newThread = myThread(thread_id, 'Thread-'.format(str(thread_id)), times)
+    newThread = myThread(thread_id, 'Thread-{}'.format(str(thread_id)), times)
     # Start new Thread
     newThread.start()
     # Add thread to thread list
