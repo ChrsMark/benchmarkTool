@@ -7,4 +7,3 @@ The application consists of two parts. Read module and write module. With read m
 
 This project is part of my Diploma Thesis on [*CSLab Ntua*](http://www.cslab.ece.ntua.gr/)
 
-Christos Markou  < chrismarkou92@gmail.com , cmarkou@cslab.ece.ntua.gr > 
