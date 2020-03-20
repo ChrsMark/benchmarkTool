@@ -15,7 +15,7 @@ import yaml
 
 working_threads = 8
 hits_per_thread = 5000
-host_es = "192.168.5.236"
+host_es = "192.168.5.237"
 index_name = "test_data"
 batch_size = 500
 
